@@ -12,7 +12,7 @@ dependencies:
     specifier: ^2.7.3
     version: 2.7.3
   '@pmmmwh/react-refresh-webpack-plugin':
-    specifier: ^0.5.3
+    specifier: ^0.5.11
     version: 0.5.11(react-refresh@0.11.0)(webpack-dev-server@4.15.1)(webpack@5.89.0)
   '@sap-theming/theming-base-content':
     specifier: ^11.9.0
@@ -30,7 +30,7 @@ dependencies:
     specifier: ^13.5.0
     version: 13.5.0(@testing-library/dom@9.3.3)
   babel-jest:
-    specifier: ^27.4.2
+    specifier: ^27.5.1
     version: 27.5.1(@babel/core@7.23.5)
   babel-plugin-named-asset-import:
     specifier: ^0.3.8
@@ -39,22 +39,22 @@ dependencies:
     specifier: ^10.0.1
     version: 10.0.1
   bfj:
-    specifier: ^7.0.2
+    specifier: ^7.1.0
     version: 7.1.0
   browserslist:
-    specifier: ^4.18.1
+    specifier: ^4.22.2
     version: 4.22.2
   camelcase:
-    specifier: ^6.2.1
+    specifier: ^6.3.0
     version: 6.3.0
   case-sensitive-paths-webpack-plugin:
     specifier: ^2.4.0
     version: 2.4.0
   css-loader:
-    specifier: ^6.5.1
+    specifier: ^6.8.1
     version: 6.8.1(webpack@5.89.0)
   css-minimizer-webpack-plugin:
-    specifier: ^3.2.0
+    specifier: ^3.4.1
     version: 3.4.1(webpack@5.89.0)
   dotenv:
     specifier: ^10.0.0
@@ -63,43 +63,43 @@ dependencies:
     specifier: ^5.1.0
     version: 5.1.0
   eslint:
-    specifier: ^8.3.0
+    specifier: ^8.55.0
     version: 8.55.0
   eslint-config-react-app:
     specifier: ^7.0.1
     version: 7.0.1(@babel/plugin-syntax-flow@7.23.3)(@babel/plugin-transform-react-jsx@7.23.4)(eslint@8.55.0)(jest@27.5.1)(typescript@5.3.2)
   eslint-webpack-plugin:
-    specifier: ^3.1.1
+    specifier: ^3.2.0
     version: 3.2.0(eslint@8.55.0)(webpack@5.89.0)
   file-loader:
     specifier: ^6.2.0
     version: 6.2.0(webpack@5.89.0)
   fs-extra:
-    specifier: ^10.0.0
+    specifier: ^10.1.0
     version: 10.1.0
   fundamental-styles:
-    specifier: ^0.11.0
+    specifier: ^0.11.2
     version: 0.11.2
   html-webpack-plugin:
-    specifier: ^5.5.0
+    specifier: ^5.5.3
     version: 5.5.3(webpack@5.89.0)
   identity-obj-proxy:
     specifier: ^3.0.0
     version: 3.0.0
   jest:
-    specifier: ^27.4.3
+    specifier: ^27.5.1
     version: 27.5.1
   jest-resolve:
-    specifier: ^27.4.2
+    specifier: ^27.5.1
     version: 27.5.1
   jest-watch-typeahead:
-    specifier: ^1.0.0
+    specifier: ^1.1.0
     version: 1.1.0(jest@27.5.1)
   mini-css-extract-plugin:
-    specifier: ^2.4.5
+    specifier: ^2.7.6
     version: 2.7.6(webpack@5.89.0)
   postcss:
-    specifier: ^8.4.4
+    specifier: ^8.4.32
     version: 8.4.32
   postcss-flexbugs-fixes:
     specifier: ^5.0.2
@@ -111,7 +111,7 @@ dependencies:
     specifier: ^10.0.1
     version: 10.0.1(browserslist@4.22.2)(postcss@8.4.32)
   postcss-preset-env:
-    specifier: ^7.0.1
+    specifier: ^7.8.3
     version: 7.8.3(postcss@8.4.32)
   prettier:
     specifier: ^3.1.0
@@ -135,44 +135,44 @@ dependencies:
     specifier: ^0.11.0
     version: 0.11.0
   react-router-dom:
-    specifier: ^5.1.2
+    specifier: ^5.3.4
     version: 5.3.4(react@18.2.0)
   resolve:
-    specifier: ^1.20.0
+    specifier: ^1.22.8
     version: 1.22.8
   resolve-url-loader:
     specifier: ^4.0.0
     version: 4.0.0
   sass-loader:
-    specifier: ^12.3.0
+    specifier: ^12.6.0
     version: 12.6.0(webpack@5.89.0)
   semver:
-    specifier: ^7.3.5
+    specifier: ^7.5.4
     version: 7.5.4
   source-map-loader:
-    specifier: ^3.0.0
+    specifier: ^3.0.2
     version: 3.0.2(webpack@5.89.0)
   style-loader:
-    specifier: ^3.3.1
+    specifier: ^3.3.3
     version: 3.3.3(webpack@5.89.0)
   tailwindcss:
-    specifier: ^3.0.2
+    specifier: ^3.3.5
     version: 3.3.5
   terser-webpack-plugin:
-    specifier: ^5.2.5
+    specifier: ^5.3.9
     version: 5.3.9(webpack@5.89.0)
   web-vitals:
     specifier: ^2.1.4
     version: 2.1.4
   webpack-dev-server:
-    specifier: ^4.6.0
+    specifier: ^4.15.1
     version: 4.15.1(webpack-cli@5.1.4)(webpack@5.89.0)
   webpack-manifest-plugin:
-    specifier: ^4.0.2
+    specifier: ^4.1.1
     version: 4.1.1(webpack@5.89.0)
   workbox-webpack-plugin:
-    specifier: ^6.4.1
-    version: 6.6.1(webpack@5.89.0)
+    specifier: ^6.6.0
+    version: 6.6.0(webpack@5.89.0)
 
 devDependencies:
   '@babel/core':
@@ -10658,25 +10658,22 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /workbox-background-sync@6.6.1:
-    resolution: {integrity: sha512-trJd3ovpWCvzu4sW0E8rV3FUyIcC0W8G+AZ+VcqzzA890AsWZlUGOTSxIMmIHVusUw/FDq1HFWfy/kC/WTRqSg==}
-    deprecated: this package has been deprecated
+  /workbox-background-sync@6.6.0:
+    resolution: {integrity: sha512-jkf4ZdgOJxC9u2vztxLuPT/UjlH7m/nWRQ/MgGL0v8BJHoZdVGJd18Kck+a0e55wGXdqyHO+4IQTk0685g4MUw==}
     dependencies:
       idb: 7.1.1
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-broadcast-update@6.6.1:
-    resolution: {integrity: sha512-fBhffRdaANdeQ1V8s692R9l/gzvjjRtydBOvR6WCSB0BNE2BacA29Z4r9/RHd9KaXCPl6JTdI9q0bR25YKP8TQ==}
-    deprecated: this package has been deprecated
+  /workbox-broadcast-update@6.6.0:
+    resolution: {integrity: sha512-nm+v6QmrIFaB/yokJmQ/93qIJ7n72NICxIwQwe5xsZiV2aI93MGGyEyzOzDPVz5THEr5rC3FJSsO3346cId64Q==}
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-build@6.6.1:
-    resolution: {integrity: sha512-INPgDx6aRycAugUixbKgiEQBWD0MPZqU5r0jyr24CehvNuLPSXp/wGOpdRJmts656lNiXwqV7dC2nzyrzWEDnw==}
-    engines: {node: '>=16.0.0'}
-    deprecated: this package has been deprecated
+  /workbox-build@6.6.0:
+    resolution: {integrity: sha512-Tjf+gBwOTuGyZwMz2Nk/B13Fuyeo0Q84W++bebbVsfr9iLkDSo6j6PST8tET9HYA58mlRXwlMGpyWO8ETJiXdQ==}
+    engines: {node: '>=10.0.0'}
     dependencies:
       '@apideck/better-ajv-errors': 0.3.6(ajv@8.12.0)
       '@babel/core': 7.23.5
@@ -10700,122 +10697,110 @@ packages:
       strip-comments: 2.0.1
       tempy: 0.6.0
       upath: 1.2.0
-      workbox-background-sync: 6.6.1
-      workbox-broadcast-update: 6.6.1
-      workbox-cacheable-response: 6.6.1
-      workbox-core: 6.6.1
-      workbox-expiration: 6.6.1
-      workbox-google-analytics: 6.6.1
-      workbox-navigation-preload: 6.6.1
-      workbox-precaching: 6.6.1
-      workbox-range-requests: 6.6.1
-      workbox-recipes: 6.6.1
-      workbox-routing: 6.6.1
-      workbox-strategies: 6.6.1
-      workbox-streams: 6.6.1
-      workbox-sw: 6.6.1
-      workbox-window: 6.6.1
+      workbox-background-sync: 6.6.0
+      workbox-broadcast-update: 6.6.0
+      workbox-cacheable-response: 6.6.0
+      workbox-core: 6.6.0
+      workbox-expiration: 6.6.0
+      workbox-google-analytics: 6.6.0
+      workbox-navigation-preload: 6.6.0
+      workbox-precaching: 6.6.0
+      workbox-range-requests: 6.6.0
+      workbox-recipes: 6.6.0
+      workbox-routing: 6.6.0
+      workbox-strategies: 6.6.0
+      workbox-streams: 6.6.0
+      workbox-sw: 6.6.0
+      workbox-window: 6.6.0
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
     dev: false
 
-  /workbox-cacheable-response@6.6.1:
-    resolution: {integrity: sha512-85LY4veT2CnTCDxaVG7ft3NKaFbH6i4urZXgLiU4AiwvKqS2ChL6/eILiGRYXfZ6gAwDnh5RkuDbr/GMS4KSag==}
-    deprecated: workbox-background-sync@6.6.1
+  /workbox-cacheable-response@6.6.0:
+    resolution: {integrity: sha512-JfhJUSQDwsF1Xv3EV1vWzSsCOZn4mQ38bWEBR3LdvOxSPgB65gAM6cS2CX8rkkKHRgiLrN7Wxoyu+TuH67kHrw==}
+    deprecated: workbox-background-sync@6.6.0
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-core@6.6.1:
-    resolution: {integrity: sha512-ZrGBXjjaJLqzVothoE12qTbVnOAjFrHDXpZe7coCb6q65qI/59rDLwuFMO4PcZ7jcbxY+0+NhUVztzR/CbjEFw==}
-    deprecated: this package has been deprecated
+  /workbox-core@6.6.0:
+    resolution: {integrity: sha512-GDtFRF7Yg3DD859PMbPAYPeJyg5gJYXuBQAC+wyrWuuXgpfoOrIQIvFRZnQ7+czTIQjIr1DhLEGFzZanAT/3bQ==}
     dev: false
 
-  /workbox-expiration@6.6.1:
-    resolution: {integrity: sha512-qFiNeeINndiOxaCrd2DeL1Xh1RFug3JonzjxUHc5WkvkD2u5abY3gZL1xSUNt3vZKsFFGGORItSjVTVnWAZO4A==}
-    deprecated: this package has been deprecated
+  /workbox-expiration@6.6.0:
+    resolution: {integrity: sha512-baplYXcDHbe8vAo7GYvyAmlS4f6998Jff513L4XvlzAOxcl8F620O91guoJ5EOf5qeXG4cGdNZHkkVAPouFCpw==}
     dependencies:
       idb: 7.1.1
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-google-analytics@6.6.1:
-    resolution: {integrity: sha512-1TjSvbFSLmkpqLcBsF7FuGqqeDsf+uAXO/pjiINQKg3b1GN0nBngnxLcXDYo1n/XxK4N7RaRrpRlkwjY/3ocuA==}
-    deprecated: this package has been deprecated
+  /workbox-google-analytics@6.6.0:
+    resolution: {integrity: sha512-p4DJa6OldXWd6M9zRl0H6vB9lkrmqYFkRQ2xEiNdBFp9U0LhsGO7hsBscVEyH9H2/3eZZt8c97NB2FD9U2NJ+Q==}
     dependencies:
-      workbox-background-sync: 6.6.1
-      workbox-core: 6.6.1
-      workbox-routing: 6.6.1
-      workbox-strategies: 6.6.1
+      workbox-background-sync: 6.6.0
+      workbox-core: 6.6.0
+      workbox-routing: 6.6.0
+      workbox-strategies: 6.6.0
     dev: false
 
-  /workbox-navigation-preload@6.6.1:
-    resolution: {integrity: sha512-DQCZowCecO+wRoIxJI2V6bXWK6/53ff+hEXLGlQL4Rp9ZaPDLrgV/32nxwWIP7QpWDkVEtllTAK5h6cnhxNxDA==}
-    deprecated: this package has been deprecated
+  /workbox-navigation-preload@6.6.0:
+    resolution: {integrity: sha512-utNEWG+uOfXdaZmvhshrh7KzhDu/1iMHyQOV6Aqup8Mm78D286ugu5k9MFD9SzBT5TcwgwSORVvInaXWbvKz9Q==}
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-precaching@6.6.1:
-    resolution: {integrity: sha512-K4znSJ7IKxCnCYEdhNkMr7X1kNh8cz+mFgx9v5jFdz1MfI84pq8C2zG+oAoeE5kFrUf7YkT5x4uLWBNg0DVZ5A==}
-    deprecated: this package has been deprecated
+  /workbox-precaching@6.6.0:
+    resolution: {integrity: sha512-eYu/7MqtRZN1IDttl/UQcSZFkHP7dnvr/X3Vn6Iw6OsPMruQHiVjjomDFCNtd8k2RdjLs0xiz9nq+t3YVBcWPw==}
     dependencies:
-      workbox-core: 6.6.1
-      workbox-routing: 6.6.1
-      workbox-strategies: 6.6.1
+      workbox-core: 6.6.0
+      workbox-routing: 6.6.0
+      workbox-strategies: 6.6.0
     dev: false
 
-  /workbox-range-requests@6.6.1:
-    resolution: {integrity: sha512-4BDzk28govqzg2ZpX0IFkthdRmCKgAKreontYRC5YsAPB2jDtPNxqx3WtTXgHw1NZalXpcH/E4LqUa9+2xbv1g==}
-    deprecated: this package has been deprecated
+  /workbox-range-requests@6.6.0:
+    resolution: {integrity: sha512-V3aICz5fLGq5DpSYEU8LxeXvsT//mRWzKrfBOIxzIdQnV/Wj7R+LyJVTczi4CQ4NwKhAaBVaSujI1cEjXW+hTw==}
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-recipes@6.6.1:
-    resolution: {integrity: sha512-/oy8vCSzromXokDA+X+VgpeZJvtuf8SkQ8KL0xmRivMgJZrjwM3c2tpKTJn6PZA6TsbxGs3Sc7KwMoZVamcV2g==}
-    deprecated: this package has been deprecated
+  /workbox-recipes@6.6.0:
+    resolution: {integrity: sha512-TFi3kTgYw73t5tg73yPVqQC8QQjxJSeqjXRO4ouE/CeypmP2O/xqmB/ZFBBQazLTPxILUQ0b8aeh0IuxVn9a6A==}
     dependencies:
-      workbox-cacheable-response: 6.6.1
-      workbox-core: 6.6.1
-      workbox-expiration: 6.6.1
-      workbox-precaching: 6.6.1
-      workbox-routing: 6.6.1
-      workbox-strategies: 6.6.1
+      workbox-cacheable-response: 6.6.0
+      workbox-core: 6.6.0
+      workbox-expiration: 6.6.0
+      workbox-precaching: 6.6.0
+      workbox-routing: 6.6.0
+      workbox-strategies: 6.6.0
     dev: false
 
-  /workbox-routing@6.6.1:
-    resolution: {integrity: sha512-j4ohlQvfpVdoR8vDYxTY9rA9VvxTHogkIDwGdJ+rb2VRZQ5vt1CWwUUZBeD/WGFAni12jD1HlMXvJ8JS7aBWTg==}
-    deprecated: this package has been deprecated
+  /workbox-routing@6.6.0:
+    resolution: {integrity: sha512-x8gdN7VDBiLC03izAZRfU+WKUXJnbqt6PG9Uh0XuPRzJPpZGLKce/FkOX95dWHRpOHWLEq8RXzjW0O+POSkKvw==}
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-strategies@6.6.1:
-    resolution: {integrity: sha512-WQLXkRnsk4L81fVPkkgon1rZNxnpdO5LsO+ws7tYBC6QQQFJVI6v98klrJEjFtZwzw/mB/HT5yVp7CcX0O+mrw==}
-    deprecated: this package has been deprecated
+  /workbox-strategies@6.6.0:
+    resolution: {integrity: sha512-eC07XGuINAKUWDnZeIPdRdVja4JQtTuc35TZ8SwMb1ztjp7Ddq2CJ4yqLvWzFWGlYI7CG/YGqaETntTxBGdKgQ==}
     dependencies:
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
-  /workbox-streams@6.6.1:
-    resolution: {integrity: sha512-maKG65FUq9e4BLotSKWSTzeF0sgctQdYyTMq529piEN24Dlu9b6WhrAfRpHdCncRS89Zi2QVpW5V33NX8PgH3Q==}
-    deprecated: this package has been deprecated
+  /workbox-streams@6.6.0:
+    resolution: {integrity: sha512-rfMJLVvwuED09CnH1RnIep7L9+mj4ufkTyDPVaXPKlhi9+0czCu+SJggWCIFbPpJaAZmp2iyVGLqS3RUmY3fxg==}
     dependencies:
-      workbox-core: 6.6.1
-      workbox-routing: 6.6.1
+      workbox-core: 6.6.0
+      workbox-routing: 6.6.0
     dev: false
 
-  /workbox-sw@6.6.1:
-    resolution: {integrity: sha512-R7whwjvU2abHH/lR6kQTTXLHDFU2izht9kJOvBRYK65FbwutT4VvnUAJIgHvfWZ/fokrOPhfoWYoPCMpSgUKHQ==}
-    deprecated: this package has been deprecated
+  /workbox-sw@6.6.0:
+    resolution: {integrity: sha512-R2IkwDokbtHUE4Kus8pKO5+VkPHD2oqTgl+XJwh4zbF1HyjAbgNmK/FneZHVU7p03XUt9ICfuGDYISWG9qV/CQ==}
     dev: false
 
-  /workbox-webpack-plugin@6.6.1(webpack@5.89.0):
-    resolution: {integrity: sha512-zpZ+ExFj9NmiI66cFEApyjk7hGsfJ1YMOaLXGXBoZf0v7Iu6hL0ZBe+83mnDq3YYWAfA3fnyFejritjOHkFcrA==}
-    engines: {node: '>=16.0.0'}
-    deprecated: this package has been deprecated
+  /workbox-webpack-plugin@6.6.0(webpack@5.89.0):
+    resolution: {integrity: sha512-xNZIZHalboZU66Wa7x1YkjIqEy1gTR+zPM+kjrYJzqN7iurYZBctBLISyScjhkJKYuRrZUP0iqViZTh8rS0+3A==}
+    engines: {node: '>=10.0.0'}
     peerDependencies:
       webpack: ^4.4.0 || ^5.9.0
     dependencies:
@@ -10824,18 +10809,17 @@ packages:
       upath: 1.2.0
       webpack: 5.89.0(webpack-cli@5.1.4)
       webpack-sources: 1.4.3
-      workbox-build: 6.6.1
+      workbox-build: 6.6.0
     transitivePeerDependencies:
       - '@types/babel__core'
       - supports-color
     dev: false
 
-  /workbox-window@6.6.1:
-    resolution: {integrity: sha512-wil4nwOY58nTdCvif/KEZjQ2NP8uk3gGeRNy2jPBbzypU4BT4D9L8xiwbmDBpZlSgJd2xsT9FvSNU0gsxV51JQ==}
-    deprecated: this package has been deprecated
+  /workbox-window@6.6.0:
+    resolution: {integrity: sha512-L4N9+vka17d16geaJXXRjENLFldvkWy7JyGxElRD0JvBxvFEd8LOhr+uXCcar/NzAmIBRv9EZ+M+Qr4mOoBITw==}
     dependencies:
       '@types/trusted-types': 2.0.7
-      workbox-core: 6.6.1
+      workbox-core: 6.6.0
     dev: false
 
   /wrap-ansi@7.0.0:
