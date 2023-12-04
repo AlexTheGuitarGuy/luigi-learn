@@ -1,23 +1,27 @@
+import { useEffect } from 'react'
+import { BrowserRouter, Route } from 'react-router-dom'
+import { addInitListener } from '@luigi-project/client'
+
 import './App.css'
+import Home from './views/home'
+import Sample1 from './views/sample1'
+import Sample2 from './views/sample2'
 
 function App() {
+  useEffect(() => {
+    const initListener = () => {
+      console.log('Luigi Client initialized.')
+    }
+
+    addInitListener(initListener)
+  }, [])
+
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <span>Test logo</span>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter basename={`sampleapp.html#`}>
+      <Route path='/home' component={Home} />
+      <Route path='/sample1' component={Sample1} />
+      <Route path='/sample2' component={Sample2} />
+    </BrowserRouter>
   )
 }
 

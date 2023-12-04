@@ -28,7 +28,7 @@ const Home = () => {
       removeContextUpdateListener(contextUpdateListener || '')
       removeInitListener(initListener || 0)
     }
-  }, [])
+  }, [contextUpdateListener, initListener])
 
   return (
     <div>
