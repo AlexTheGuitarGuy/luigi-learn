@@ -1,5 +1,5 @@
 {
-    "globals": {
-        "Luigi": "readonly"
-    }
+  "globals": {
+    "Luigi": "readonly"
+  }
 }

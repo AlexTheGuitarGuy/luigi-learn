@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import { render } from 'react-dom'
 import { BrowserRouter, Route } from 'react-router-dom'
-import Home from './views/home.js'
-import Sample1 from './views/sample1.js'
-import Sample2 from './views/sample2.js'
+import Home from './views/home'
+import Sample1 from './views/sample1'
+import Sample2 from './views/sample2'
 import { addInitListener } from '@luigi-project/client'
 import './index.css'
 
 class App extends Component {
-  constructor(props) {
+  constructor(props: any) {
     super(props)
     addInitListener(() => {
       console.log('Luigi Client initialized.')

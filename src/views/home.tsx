@@ -8,25 +8,25 @@ import {
 
 const Home = () => {
   const [message, setMessage] = useState('')
-  const [initListener, setInitListener] = useState(null)
-  const [contextUpdateListener, setContextUpdateListener] = useState(null)
+  const [initListener, setInitListener] = useState<number | null>(null)
+  const [contextUpdateListener, setContextUpdateListener] = useState<string | null>(null)
 
   useEffect(() => {
     setInitListener(
-      addInitListener((initialContext) => {
+      addInitListener(() => {
         setMessage('Luigi Client initialized.')
       }),
     )
 
     setContextUpdateListener(
-      addContextUpdateListener((updatedContext) => {
+      addContextUpdateListener(() => {
         setMessage('Luigi Client updated.')
       }),
     )
 
     return function cleanup() {
-      removeContextUpdateListener(contextUpdateListener)
-      removeInitListener(initListener)
+      removeContextUpdateListener(contextUpdateListener || '')
+      removeInitListener(initListener || 0)
     }
   }, [])
 
