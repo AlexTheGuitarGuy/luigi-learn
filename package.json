@@ -2,6 +2,7 @@
   "name": "luigi-for-dfs",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://localhost:8080",
   "dependencies": {
     "@luigi-project/client": "^2.7.3",
     "@luigi-project/core": "^2.7.3",
