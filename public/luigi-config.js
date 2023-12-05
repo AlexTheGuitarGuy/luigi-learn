@@ -23,18 +23,20 @@ Luigi.setConfig({
       },
     ],
   },
-  communication: {
-    customMessagesListeners: {
-      'microfrontend-login': (data) => {
-        console.log('data', data)
-      },
-    },
-  },
   settings: {
     header: {
       title: 'Luigi React App',
       logo: '/logo.png',
     },
     responsiveNavigation: 'simpleMobileOnly',
+    thirdPartyCookieCheck: {
+      thirdPartyCookieErrorHandling: () => {
+        const alert = {
+          text: 'Third Party Cookies are not enabled. Please check your browser settings.',
+          type: 'warning',
+        }
+        Luigi.ux().showAlert(alert)
+      },
+    },
   },
 })
