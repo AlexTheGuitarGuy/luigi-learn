@@ -12,13 +12,23 @@ Luigi.setConfig({
             label: 'Tenera',
             icon: 'cloud',
             viewUrl: 'http://localhost:3000',
-            loadingIndicator: {
-              enabled: false,
-            },
+          },
+          {
+            pathSegment: 'local-microfrontend',
+            label: 'Local microfrontend',
+            icon: 'cloud',
+            viewUrl: '/sampleapp.html#/local-microfrontend',
           },
         ],
       },
     ],
+  },
+  communication: {
+    customMessagesListeners: {
+      'microfrontend-login': (data) => {
+        console.log('data', data)
+      },
+    },
   },
   settings: {
     header: {

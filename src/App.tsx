@@ -1,9 +1,9 @@
-import { useEffect } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
-import { addInitListener } from '@luigi-project/client'
-
 import './App.css'
-import Home from './views/home'
+import Home from './views/Home'
+import LocalMicrofrontend from './views/LocalMicrofrontend'
+import { useEffect } from 'react'
+import { addInitListener } from '@luigi-project/client'
 
 function App() {
   useEffect(() => {
@@ -17,6 +17,7 @@ function App() {
   return (
     <BrowserRouter basename='sampleapp.html#'>
       <Route path='/home' component={Home} />
+      <Route path='/local-microfrontend' component={LocalMicrofrontend} />
     </BrowserRouter>
   )
 }
