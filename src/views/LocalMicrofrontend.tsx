@@ -1,8 +1,10 @@
+import { STORAGE_KEYS } from '../storageKeys'
+
 const LocalMicrofrontend = () => {
   return (
     <div>
       <h1>User data</h1>
-      <div>{localStorage.getItem('Luigi#localhost:3000#userData')}</div>
+      <div>{localStorage.getItem(STORAGE_KEYS.userData)}</div>
     </div>
   )
 }
