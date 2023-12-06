@@ -14,14 +14,31 @@ Luigi.setConfig({
             viewUrl: 'http://localhost:3000',
           },
           {
-            pathSegment: 'local-microfrontend',
-            label: 'Local microfrontend',
+            pathSegment: 'vite',
+            label: 'Vite App',
             icon: 'cloud',
-            viewUrl: '/sampleapp.html#/local-microfrontend',
+            viewUrl: 'http://localhost:3002',
+            context: {
+              user: Luigi.getGlobalContext().user,
+            },
           },
         ],
       },
     ],
+  },
+  communication: {
+    customMessagesListeners: {
+      'profile.me': (data) => {
+        Luigi.setGlobalContext({
+          user: data,
+        })
+
+        Luigi.ux().showAlert({
+          text: 'User profile set',
+          type: 'info',
+        })
+      },
+    },
   },
   settings: {
     header: {

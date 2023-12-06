@@ -4,8 +4,9 @@ import './index.css'
 import App from './App'
 import { addInitListener } from '@luigi-project/client'
 
-const initListener = () => {
-  console.log('Luigi Client initialized.')
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const initListener = (context: any) => {
+  console.log('Luigi Client initialized.', context)
 }
 
 addInitListener(initListener)
